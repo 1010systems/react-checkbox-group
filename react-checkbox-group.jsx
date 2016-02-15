@@ -61,6 +61,9 @@ module.exports = React.createClass({
       if (destinationValue.indexOf($checkbox.value) >= 0) {
         $checkbox.checked = true;
       }
+      else {
+        $checkbox.checked = false;
+      }
     }
   },
 
